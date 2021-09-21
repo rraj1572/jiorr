@@ -11,7 +11,7 @@ header("Access-Control-Expose-Headers: Content-Length,Content-Range");
 header("Access-Control-Allow-Headers: Range");
 header("Accept-Ranges: bytes");
 
-$p= @file_get_contents("http://jiorr.azurewebsites.net/token.php"); # Chnage This Path only according to Your Server and Folder 
+$p= @file_get_contents("https://rraj1572.github.io/jiorr/token.php"); # Chnage This Path only according to Your Server and Folder 
 
 
 $_SESSION["p"]=$p;
