@@ -1,5 +1,5 @@
 <?php
-$p= @file_get_contents("https://rraj1572.github.io/jiorr/token.php"); # Change This Path According to Your Server and Folder
+$p= @file_get_contents("https://rrgroup.live/token.php"); # Change This Path According to Your Server and Folder
 
 
 # © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
