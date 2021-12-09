@@ -1,5 +1,5 @@
 <?php
-$p= @file_get_contents("https://raw.githubusercontent.com/rraj1572/jiorr/main/token.php"); # Change This Path According to Your Server and Folder
+$p= @file_get_contents("http://rrgroup.bitmana.io/token.php"); # Change This Path According to Your Server and Folder
 
 
 # © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
@@ -25,7 +25,7 @@ if(@$_REQUEST["key"]!="")
 "srno: 200206173037\r\n" .
 "usergroup: tvYR7NSNn7rymo3F\r\n" .
 "channelid: 472\r\n" .
-"ssotoken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiJjMTQ2NGVlZi1mZmNmLTRmMWEtYTU5NC0yMGRiYTI1ZTgyNjYiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjEwIiwiZGV2aWNlSWQiOm51bGwsImp0aSI6Ijc2MzU3YWM2LTA5MDMtNGY5YS1iMTA1LTg1MTUyMmE5MWQ3MiIsImlhdCI6MTYzNDY0NzIzMX0.jy_kS95XB6wSpoajNseNnWMYmIx3rdwTdRi1_AjB8Vc\r\n" #Change To Your Details
+"ssotoken: \r\n" #Change To Your Details
 	    
     ]
 ];
